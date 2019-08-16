@@ -29,7 +29,7 @@ namespace JWTAuthSample.Controllers
                     return BadRequest();
                 }
                 var claims =new List<Claim>{
-                    new Claim(ClaimTypes.Name,"zhangshuai"),
+                    new Claim(ClaimTypes.Name,"best"),
                     new Claim(ClaimTypes.Role,"admin")
 
                 };
