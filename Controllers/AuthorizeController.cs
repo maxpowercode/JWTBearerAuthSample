@@ -24,7 +24,7 @@ namespace JWTAuthSample.Controllers
         {
             if(ModelState.IsValid )
             {
-                if(!(viewModel.User =="zhangshuai" && viewModel.Password =="123"))
+                if(!(viewModel.User =="best" && viewModel.Password =="123"))
                 {
                     return BadRequest();
                 }
